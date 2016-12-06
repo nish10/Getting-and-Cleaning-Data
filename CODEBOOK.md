@@ -17,6 +17,9 @@ This book describes the variables, the data, and any transformations or work tha
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   - `tidy_data<- ddply(merged_data, .(subject, activities), function(x){colMeans(x\[,3:length(names(merged_data))\])})` : to create tidy data with w.r.t to activity and subject
   - `write.table(tidy_data, "tidy_averages_data.txt", row.name=FALSE)` : writing data
+  
+`run_analysis.R` : is the anaylsis R script created by me.
+`tidy_averages_data.txt` : is the tidy data output created after running **run_analysis.R** script.
 
 
 
