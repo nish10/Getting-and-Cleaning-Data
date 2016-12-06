@@ -19,6 +19,7 @@ This book describes the variables, the data, and any transformations or work tha
   - `write.table(tidy_data, "tidy_averages_data.txt", row.name=FALSE)` : writing data
   
 `run_analysis.R` : is the anaylsis R script created by me.
+
 `tidy_averages_data.txt` : is the tidy data output created after running **run_analysis.R** script.
 
 
