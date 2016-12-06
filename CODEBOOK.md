@@ -18,9 +18,9 @@ This book describes the variables, the data, and any transformations or work tha
   - `tidy_data<- ddply(merged_data, .(subject, activities), function(x){colMeans(x\[,3:length(names(merged_data))\])})` : to create tidy data with w.r.t to activity and subject
   - `write.table(tidy_data, "tidy_averages_data.txt", row.name=FALSE)` : writing data
   
-`run_analysis.R` : is the anaylsis R script created by me.
+`run_analysis.R` : It is the anaylsis R script created by me.
 
-`tidy_averages_data.txt` : is the tidy data output created after running **run_analysis.R** script.
+`tidy_averages_data.txt` : It is the tidy data output created after running **run_analysis.R** script.
 
 
 
